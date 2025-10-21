@@ -1,0 +1,32 @@
+/* Espacio superior para que el contenido no quede tapado por el navbar */
+body {
+  padding-top: 60px; /* ajusta según la altura real del navbar */
+  background-color: #f8f9fa; /* color neutro opcional */
+  overflow-x: hidden;
+}
+
+/* Contenedor principal del contenido */
+.main-content {
+  margin-left: 80px; /* Ajuste fino: reduce el espacio lateral */
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+/* Si tu sidebar se colapsa o cambia de tamaño, este diseño seguirá siendo fluido */
+@media (min-width: 992px) {
+  .main-content {
+    margin-left: 5px; /* ancho completo del sidebar */
+  }
+}
+
+/* Mejor alineación de la tabla y botón */
+.main-content .table {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.main-content .btn-success {
+  margin-bottom: 15px;
+}
+
