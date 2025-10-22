@@ -37,7 +37,7 @@ const Dashboard = () => {
     stockBajo: 0,
     ultimasVentas: [],
     productosBajo: [],
-    productosRecientes: [] // ← nuevo
+    productosRecientes: [] 
 
   });
   const [loading, setLoading] = useState(true);

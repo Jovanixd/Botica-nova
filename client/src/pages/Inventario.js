@@ -16,7 +16,7 @@ const Inventario = () => {
   const [filtro, setFiltro] = useState('');
   const [orden, setOrden] = useState('asc');
 
-  // Modal
+  
   const [showModal, setShowModal] = useState(false);
   const [productoActual, setProductoActual] = useState(null);
   const [formData, setFormData] = useState({
