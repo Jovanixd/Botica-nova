@@ -1,0 +1,29 @@
+# ===== NODE / REACT =====
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# ===== ENV FILES =====
+.env
+.env.local
+.env.development
+.env.production
+
+# ===== BUILD FILES =====
+build/
+dist/
+
+# ===== DOCKER =====
+*.log
+docker-compose.override.yml
+
+# ===== SYSTEM / EDITOR FILES =====
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# ===== OTHERS =====
+*.bak
+*.tmp
